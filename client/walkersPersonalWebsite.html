@@ -1,0 +1,100 @@
+<head>
+    <title>Walker Flieller</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<template name="homepage">
+    <div id="projects">
+        <div class="contatiner">
+            <div class="row">
+                <div class="span3">
+                    <div class="portfolio text-center">
+                        <h4>Projects</h4>
+                        <p>These are some of the projects that I have been working on recently. If you would like to see a more detailed description please feel free to checkout my portfolio page!</p>
+                        <a class="btn" href="/portfolio">Portfolio</a>
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="tictactoe text-center">
+                        <h4>Episode Tic-Tac-Toe</h4>
+                        <p>These are some of the projects that I have been working on recently. If you would like to see a more detailed description please feel free to checkout my portfolio page!</p>
+                        <img src="img/tictactoe.png" class="img-polaroid" alt="">
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="drinkability text-center">
+                        <h4>Drinkability</h4>
+                        <p>These are some of the projects that I have been working on recently. If you would like to see a more detailed description please feel free to checkout my portfolio page!</p>
+                        <img src="img/drinkability.png" class="img-polaroid" alt="">
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="intro text-center">
+                        <h4>Intro</h4>
+                        <p>These are some of the projects that I have been working on recently. If you would like to see a more detailed description please feel free to checkout my portfolio page!</p>
+                        <img src="img/intro.png" class="img-polaroid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+<template name="background">
+</template>
+<template name="contact">
+</template>
+<template name="portfolio">
+</template>
+<template name="layout">
+    <div class="hero-unit">
+        <div class="container">
+            <div class="navbar">
+                <a class="brand" href="/">Walker Flieller</a>
+                <div class="navbar-inner">
+                    <nav>
+                        <ul class="nav pull-right">
+                            <li class="active"><a href="/">Home</a></li>
+                            <li><a href="/background">Background</a></li>
+                            <li><a href="/portfolio">Portfolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="hero-unit-inner text-center">
+            <h1>Walker Flieller</h1>
+            <h2>Full-Stack Web Developer</h2>
+            <h4>Austin, TX</h4>
+            <a href="/contact" class="btn btn-primary">Contact Me for Work!</a>
+        </div>
+    </div>
+
+    <body>
+        <div class="content">
+            {{> yield}}
+        </div>
+    </body>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="span12 text-center">
+                    <nav class="table">
+                        <ul class="footer-links">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/background">Background</a></li>
+                            <li><a href="/portfolio">Portfolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div>
+                        <a href="https://www.twitter.com/walkerflieller" class="btn twitter btn-info"><span class="social -sprite twitter"></span>Follow Me on Twitter</a>
+                        <a href="https://www.facebook.com/walkerflieller" class="btn facebook btn-primary"><span class="social -sprite facebook"></span>Add Me on Facebook</a>
+                        <a href="https://www.linkedin.com/in/walkerflieller" class="btn linkedin btn-primary"><span class="social -sprite linkedin"></span>Connect with me on LinkedIn</a>
+                    </div>
+                    <small> Made by <a href="#">Walker Flieller</a> 2015</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+</template>
