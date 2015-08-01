@@ -3,12 +3,36 @@
 .hero-unit {
 	padding: 0;
 	background: url("img/skyline.jpg") no-repeat 75% top;
+	margin-left: -2em;
+	margin-right: -4em;
+
+}
+
+#scrollArrow {
+	font-size: 3em;
+	color: #9a9c9f;
+	border-radius: 1em;
+	opacity: .65;
+}
+#scrollArrow:hover {
+	color: #66CDAA;
+	opacity: 1;
+}
+
+#scrollArrow:focus {
+	color: #66CDAA;
+
 
 }
 .hero-unit-inner { 
-	padding-bottom: 5em;
+	padding-bottom: 20em;
 	color: #fff;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+.navbar-brand img {
+	border-radius: 30px;
+	height: 3em;
+	width: 3em;
 }
 
 .navbar-inner {
@@ -116,5 +140,12 @@ a:hover, a:focus {
 }
 .footer-links li {
 	display: inline-block;
-	padding-left: 10px;
+	padding-left: .25em;
+	padding-right: .25em;
+}
+
+.socialIcons {
+	font-size: 2em;
+	padding-left: .25em;
+	padding-right: .25em;
 }
