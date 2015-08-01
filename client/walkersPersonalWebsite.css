@@ -10,9 +10,9 @@
 
 #scrollArrow {
 	font-size: 3em;
-	color: #9a9c9f;
+	color: #fff;
 	border-radius: 1em;
-	opacity: .65;
+	opacity: .5;
 }
 #scrollArrow:hover {
 	color: #66CDAA;
@@ -134,6 +134,10 @@ a:hover, a:focus {
 	border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
+#gh-username {
+	color: #66CDAA;
+}
+
 .footer-links {
 
 	list-style: none;
@@ -149,3 +153,4 @@ a:hover, a:focus {
 	padding-left: .25em;
 	padding-right: .25em;
 }
+

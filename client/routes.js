@@ -7,7 +7,7 @@ Router.map(function() {
 		path: '/'
 	});
 	this.route('background');
-	this.route('contact');
 	this.route('portfolio');
+	this.route('blog');
 
 });
