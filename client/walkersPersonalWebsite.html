@@ -1,16 +1,74 @@
 <head>
     <title>Walker Flieller</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
 </head>
 <template name="homepage">
+<div id="skills">
+        <div class="contatiner">
+            <div class="row">
+                <div class="span12 text-center">
+                    <h4>Skills</h4>
+                </div>
+            </div>
+            <div class="row">
+            <div class="span3">
+                    <div class="tweets text-center">
+                    <h4>Ruby/Ruby on Rails</h4>
+                    <img src="img/icon-ruby.png" class="langicon" alt="">
+                    <img src="img/rails.png" class="langicon" alt="">
+                        
+
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="tweets text-center">
+                    <h4>Javascript</h4>
+                    <img src="img/JSS.png" class="langicon-small" alt="">
+                    <img src="img/meteor.png" class="langicon" alt="">
+                    <img src="img/backbone.png" class="langicon" alt="">
+                    <img src="img/nodejs.png" class="langicon" alt="">
+                    <img src="img/jquery_logo.png" class="langicon" alt="">
+                        
+
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="liPosts text-center">
+                        <h4>HTML5 & CSS3</h4>
+                        <img src="img/HTML.png" class="langicon-small" alt="">
+                        <img src="img/CSS.png" class="langicon-small" alt="">
+                        <img src="img/B.png" class="langicon-small" alt="">
+
+                        
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="blogPosts text-center">
+                        <h4>SQL/NoSQL</h4>
+                        <img src="img/postgresqlIcon.png" class="langicon" alt="">
+                        <img src="img/mongoIcon.png" class="langicon" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="projects">
         <div class="contatiner">
             <div class="row">
+                <div class="span12 text-center">
+                    <h4>Projects</h4>
+                    <p>These are some of the projects that I have been working on recently. If you would like to see a more detailed description please feel free to checkout my portfolio page!</p>
+                    <a class="btn" href="/portfolio">Portfolio</a>
+                </div>
+            </div>
+            <div class="row">
                 <div class="span3">
-                    <div class="portfolio text-center">
-                        <h4>Projects</h4>
+                    <div class="appetite text-center">
+                    <h4>Appetite</h4>
                         <p>These are some of the projects that I have been working on recently. If you would like to see a more detailed description please feel free to checkout my portfolio page!</p>
-                        <a class="btn" href="/portfolio">Portfolio</a>
+                        <img src="img/appetite.png" class="img-polaroid" alt="">
+
                     </div>
                 </div>
                 <div class="span3">
@@ -37,6 +95,36 @@
             </div>
         </div>
     </div>
+    <div id="widgets">
+        <div class="contatiner">
+            <div class="row">
+                <div class="span12 text-center">
+                    <h4>Social Updates</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span4">
+                    <div class="tweets text-center">
+                    <h4>Recent Tweets</h4>
+                        
+
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="liPosts text-center">
+                        <h4>Recent LinkedIn Posts</h4>
+                        
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="blogPosts text-center">
+                        <h4>Recent Blog Posts</h4>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
 <template name="background">
 </template>
@@ -48,11 +136,10 @@
     <div class="hero-unit">
         <div class="container">
             <div class="navbar">
-                <a class="brand" href="/">Walker Flieller</a>
                 <div class="navbar-inner">
                     <nav>
                         <ul class="nav pull-right">
-                            <li class="active"><a href="/">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li><a href="/background">Background</a></li>
                             <li><a href="/portfolio">Portfolio</a></li>
                             <li><a href="#">Blog</a></li>
@@ -63,18 +150,20 @@
         </div>
         <div class="hero-unit-inner text-center">
             <h1>Walker Flieller</h1>
-            <h2>Full-Stack Web Developer</h2>
+            <h3>Full-Stack Web Developer</h3>
             <h4>Austin, TX</h4>
             <a href="/contact" class="btn btn-primary">Contact Me for Work!</a>
         </div>
     </div>
 
-    <body>
+   
+    <div class="container">
         <div class="content">
             {{> yield}}
         </div>
-    </body>
-    <footer>
+        </div>
+    
+        <footer>
         <div class="container">
             <div class="row">
                 <div class="span12 text-center">
@@ -88,10 +177,13 @@
                         </ul>
                     </nav>
                     <div>
-                        <a href="https://www.twitter.com/walkerflieller" class="btn twitter btn-info"><span class="social -sprite twitter"></span>Follow Me on Twitter</a>
-                        <a href="https://www.facebook.com/walkerflieller" class="btn facebook btn-primary"><span class="social -sprite facebook"></span>Add Me on Facebook</a>
-                        <a href="https://www.linkedin.com/in/walkerflieller" class="btn linkedin btn-primary"><span class="social -sprite linkedin"></span>Connect with me on LinkedIn</a>
+                        <a href="https://twitter.com/WalkerFlieller" class="twitter-follow-button" data-show-count="false">Follow @WalkerFlieller</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                        <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+                        
+						<script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/walkerflieller" data-format="hover" data-related="false" data-text="Walker Flieller"></script>
                     </div>
+                    
                     <small> Made by <a href="#">Walker Flieller</a> 2015</small>
                 </div>
             </div>
