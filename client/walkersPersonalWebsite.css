@@ -3,8 +3,6 @@
 .hero-unit {
 	padding: 0;
 	background: url("img/skyline.jpg") no-repeat 75% top;
-	margin-left: -2em;
-	margin-right: -4em;
 
 }
 
@@ -17,13 +15,10 @@
 #scrollArrow:hover {
 	color: #66CDAA;
 	opacity: 1;
+	    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
 }
 
-#scrollArrow:focus {
-	color: #66CDAA;
-
-
-}
 .hero-unit-inner { 
 	padding-bottom: 20em;
 	color: #fff;
@@ -54,6 +49,8 @@
 }
 .navbar .nav > li > a:hover, a:focus {
 	color: #66CDAA;
+	    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
 }
 
 .navbar .nav > li > a:focus {
@@ -103,6 +100,8 @@ a {
 .btn:hover {
 	background: #66CDAA;
 	color: #fff;
+	    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
 }
 
 .btn:focus {
@@ -113,6 +112,8 @@ a {
 
 a:hover, a:focus {
 	color: #66CDAA;
+	    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
 }
 
 #skills {
@@ -126,6 +127,10 @@ a:hover, a:focus {
 	margin-bottom: 60px;
 	border-bottom: 1px solid rgba(0,0,0,0.1);
 	padding-bottom: 100px;
+}
+
+.portfolioBtn {
+	margin-bottom: 2em;
 }
 
 #widgets {
@@ -152,5 +157,26 @@ a:hover, a:focus {
 	font-size: 2em;
 	padding-left: .25em;
 	padding-right: .25em;
+}
+
+#portfolio .row {
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	padding-bottom: 2em;
+	margin-bottom: 2em;
+}
+
+.projectPic {
+	veritcal-align: 50%;
+}
+
+.resume {
+	padding-bottom: 2em;
+	margin-bottom: 2em;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+
+}
+
+.resumePdf {
+	border: 2em solid rgba(0,0,0,0.1);
 }
 
