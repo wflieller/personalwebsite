@@ -1,4 +1,6 @@
 <head>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
     <title>Walker Flieller</title>
 </head>
 <template name="homepage">
@@ -51,12 +53,12 @@
             <div class="row">
                 <div class="span12 text-center">
                     <h2>Projects</h2>
-                    <p>These are some of the projects that I have been working on recently. If you would like to see a more detailed description please feel free to checkout my portfolio page!</p>
+                    
                     <a class="btn portfolioBtn" href="/portfolio">Portfolio</a>
                 </div>
             </div>
-            <div class="row">
-                <div class="span3">
+            <!-- <div class="row"> -->
+                <!-- <div class="span3">
                     <div class="appetite text-center">
                         <h4>App-etite</h4>
                         <p>App-etite is a web app built in ruby on rails that allows users to post lunch ideas, vote on the best lunch ideas in order to decide what lunch to get for that day. </p>
@@ -79,30 +81,49 @@
                         <h4>Intro</h4>
                         <p>Intro is a web app built with meteor.js that allows users to check in to their current location and see whose nearby, and has a social platform built in that allows users to connect & communicate.</p>
                     </div>
+                </div> -->
+            <!-- </div> -->
+            <div class="row">
+                <div class="span6 text-center">
+                    <div class="imgWrap text-center">
+                        <img src="img/drinkability.png" class="img-polaroid" alt="">
+                        <a href="/portfolio" class="imgDescription text-center">
+                        
+                        <h2>Drinkability is a web app built in node.js that allows users to post, comment and vote on their favorite and least favorite cocktails and types of beers and wines.</h2>
+                    </a>
+                    </div>
+                </div>
+                <div class="span6 text-center">
+                    <div class="imgWrap text-center">
+                        <img src="img/intro.png" class="img-polaroid" alt="">
+                        <a href="/portfolio" class="imgDescription text-center">
+                        
+                        <h2>Intro is a web app built with meteor.js that allows users to check in to their current location and see whose nearby, and has a social platform built in that allows users to connect & communicate.</h2>
+                    </a>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="span3">
-                    <div class="appetite text-center">
+                <div class="span6 text-center">
+                    <div class="imgWrap text-center">
                         <img src="img/appetite.png" class="img-polaroid" alt="">
+                        <a href="portfolio" class="imgDescription text-center">
+                      
+                        <h2>App-etite is a web app built in ruby on rails that allows users to post lunch ideas, vote on the best lunch ideas in order to decide what lunch to get for that day. </h2>
+                    </a>
                     </div>
                 </div>
-                <div class="span3">
-                    <div class="tictactoe text-center">
+                <div class="span6 text-center">
+                    <div class="imgWrap text-center">
                         <img src="img/tictactoe.png" class="img-polaroid" alt="">
+                        <a href="/portfolio" class="imgDescription text-center">
+                        
+                        <h2>Episode Tic-Tac-Toe is a fully functional javascript, html and css based tic-tac-toe game that is themed to look like star-wars.</h2>
+                    </a>
                     </div>
                 </div>
-                <div class="span3">
-                    <div class="drinkability text-center">
-                        <img src="img/drinkability.png" class="img-polaroid" alt="">
-                    </div>
                 </div>
-                <div class="span3">
-                    <div class="intro text-center">
-                        <img src="img/intro.png" class="img-polaroid" alt="">
-                    </div>
-                </div>
-            </div>
+                
         </div>
     </div>
     <div id="widgets">
@@ -152,8 +173,8 @@
         <div class="container">
             <div class="row">
                 <div class="span12 text-center resume">
-                    <h2>My Background</h2>
-					<embed class="resumePdf" src="pdf/WalkersResume.pdf" width="600" height="500" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+                    <h1>My Background</h1>
+					<embed class="resumePdf" src="pdf/resume.pdf" width="600" height="500" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
                     </div>
                     
             </div>
@@ -163,6 +184,11 @@
 <template name="portfolio">
     <div id="portfolio">
         <div class="container">
+        	<div class="row">
+                <div class="span12 text-center">
+                    <h1>Projects</h1>
+                    </div>
+                    </div>
             <div class="row">
                 <div class="span8">
                     <h2>Intro</h2>
@@ -175,6 +201,7 @@
                     <p>Intro is a web app built with meteor.js that allows users to check in to their current location and see whose nearby, and has a social platform built in that allows users to connect & communicate.</p>
                     <h3>Process</h3>
                     <h3>Links</h3>
+                    <a href="http://www.intro-app.meteor.com">Deployed Version of Intro</a>
                     
                 </div>
                 <div class="span4">
@@ -196,6 +223,7 @@
                     <p>Drinkability is a web app built in node.js that allows users to post, comment and vote on their favorite and least favorite cocktails and types of beers and wines.</p>
                     <h3>Process</h3>
                     <h3>Links</h3>
+                    <a href="http://drinkability.herokuapp.com">Deployed Version of Drinkability</a>
                     
                 </div>
                 
@@ -209,9 +237,10 @@
                     	<li><strong>Date:</strong> June 2015</li>
                     </ul>
                     <h3>Summary</h3>
-                    <p>App-etite is a web app built in ruby on rails that allows users to post lunch ideas, vote on the best lunch ideas in order to decide what lunch to get for that day. </p>
+                    <p>App-e-tite is a web app built in ruby on rails that allows users to post lunch ideas, vote on the best lunch ideas in order to decide what lunch to get for that day. </p>
                     <h3>Process</h3>
                     <h3>Links</h3>
+                    <a href="http://app-e-tite.herokuapp.com">Deployed Version of App-e-tite</a>
                     
                 </div>
                 <div class="span4">
@@ -233,6 +262,7 @@
                     <p>Episode Tic-Tac-Toe is a fully functional javascript, html and css based tic-tac-toe game that is themed to look like star-wars.</p>
                     <h3>Process</h3>
                     <h3>Links</h3>
+                    <a href="http://episodetictactoe.bitballoon.com">Deployed Version of Episode Tic Tac Toe</a>
                     
                 </div>
                 
@@ -241,6 +271,13 @@
     </div>
 </template>
 <template name="blog">
+<div class="container">
+        	<div class="row">
+                <div class="span12 text-center">
+                <h1>Coming Soon...</h1>
+                </div>
+                </div>
+                </div>
 </template>
 <template name="layout">
     <div class="hero-unit">
