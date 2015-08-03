@@ -8,6 +8,6 @@ Router.map(function() {
 	});
 	this.route('background');
 	this.route('portfolio');
-	this.route('blog');
+	// this.route('blog');
 
 });

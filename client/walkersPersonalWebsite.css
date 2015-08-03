@@ -19,12 +19,12 @@
 #scrollArrow:hover {
 	color: #66CDAA;
 	opacity: 1;
-	    -webkit-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
 }
 
 .hero-unit-inner { 
-	padding-bottom: 20em;
+	padding-bottom: 15em;
 	color: #fff;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
 }
@@ -118,11 +118,17 @@ a {
 
 a:hover, a:focus {
 	color: #66CDAA;
-	    -webkit-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
 }
 
 #skills {
+	margin-bottom: 60px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+#services {
 	margin-bottom: 60px;
 	border-bottom: 1px solid rgba(0,0,0,0.1);
 	padding-bottom: 100px;
@@ -170,6 +176,7 @@ a:hover, a:focus {
 	padding-bottom: 2em;
 	margin-bottom: 2em;
 }
+
 
 .projectPic {
 	veritcal-align: 50%;
@@ -221,10 +228,29 @@ a:hover, a:focus {
   	width: 30em;*/
 
 }
-
+.badge-success {
+	background: #66CDAA;
+}
 
 .imgWrap:hover .imgDescription {
   visibility: visible;
   opacity: 1;
 }
+span .fa-mobile {
+	padding-right: .572em;
+	padding-left: .572em;
+}
+.perks{
+	font-size: 7em;
+	background: #66CDAA;
+	border-radius: 50%;
+	padding: .25em;
 
+}
+
+/*
+.odd {
+	background: rgba(0,0,0,0.1);
+}
+
+*/
