@@ -90,6 +90,7 @@
 
 a {
 	color: black;
+
 }
 
 .btn {
@@ -201,6 +202,7 @@ a:hover, a:focus {
   width: 514px;
   margin: 0 auto;
   margin-bottom: 10em;
+  text-decoration: none;
 }
 
 .imgDescription {
@@ -211,6 +213,7 @@ a:hover, a:focus {
   right: 0;
   background: rgba(0,0,0,0.5);
   color: #66CDAA;
+  text-decoration: none;
 
 
   visibility: hidden;
@@ -219,6 +222,10 @@ a:hover, a:focus {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   
+}
+
+.imgDescription a {
+	text-decoration:none;
 }
 
 .img-polaroid {
@@ -235,6 +242,8 @@ a:hover, a:focus {
 .imgWrap:hover .imgDescription {
   visibility: visible;
   opacity: 1;
+  text-decoration: none;
+  vertical-align: 50%;
 }
 span .fa-mobile {
 	padding-right: .572em;
