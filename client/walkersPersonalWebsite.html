@@ -122,7 +122,7 @@
                 <div class="span6 text-center">
                     <div class="imgWrap text-center">
                         <img src="img/drinkability.png" class="img-polaroid " alt="">
-                        <a href="/portfolio" class="imgDescription text-center">
+                        <a href="/portfolio#drinkability" class="imgDescription text-center">
                             <h2>Drinkability is a web app built in node.js that allows users to post, comment and vote on their favorite and least favorite cocktails and types of beers and wines.</h2>
                             <span class="badge badge-success">Node.js</span>
                             <span class="badge badge-success">HTML5</span>
@@ -134,7 +134,7 @@
                 <div class="span6 text-center">
                     <div class="imgWrap text-center">
                         <img src="img/intro.png" class="img-polaroid" alt="">
-                        <a href="/portfolio" class="imgDescription text-center">
+                        <a href="/portfolio#intro" class="imgDescription text-center">
                             <h2>Intro is a web app built with meteor.js that allows users to check in to their current location and see whose nearby, and has a social platform built in that allows users to connect & communicate.</h2>
                             <span class="badge badge-success">Meteor.js</span>
                             <span class="badge badge-success">HTML5</span>
@@ -148,7 +148,7 @@
                 <div class="span6 text-center">
                     <div class="imgWrap text-center">
                         <img src="img/appetite.png" class="img-polaroid" alt="">
-                        <a href="portfolio" class="imgDescription text-center">
+                        <a href="/portfolio#appetite" class="imgDescription text-center">
                             <h2>App-etite is a web app built in ruby on rails that allows users to post lunch ideas, vote on the best lunch ideas in order to decide what lunch to get for that day. </h2>
                             <span class="badge badge-success">Ruby on Rails</span>
                             <span class="badge badge-success">HTML5</span>
@@ -160,7 +160,7 @@
                 <div class="span6 text-center">
                     <div class="imgWrap text-center">
                         <img src="img/tictactoe.png" class="img-polaroid" alt="">
-                        <a href="/portfolio" class="imgDescription text-center">
+                        <a href="/portfolio#tictactoe" class="imgDescription text-center">
                             <h2>Episode Tic-Tac-Toe is a fully functional javascript, html and css based tic-tac-toe game that is themed to look like star-wars.</h2>
                             <span class="badge badge-success">Javascript</span>
                             <span class="badge badge-success">HTML5</span>
@@ -240,6 +240,7 @@
             </div>
             <div class="row odd">
                 <div class="span6">
+                <a id="intro"></a>
                     <h2>Intro</h2>
                     <ul>
                         <li><strong>Tech:</strong> Meteor.js</li>
@@ -262,6 +263,7 @@
                     <img src="img/drinkability.png" class="img-polaroid" alt="">
                 </div>
                 <div class="span6">
+                <a id="drinkability"></a>
                     <h2>Drinkability</h2>
                     <ul>
                         <li><strong>Tech:</strong> Node.js</li>
@@ -278,6 +280,7 @@
             </div>
             <div class="row odd">
                 <div class="span6">
+                <a id="appetite"></a>
                     <h2>App-e-tite</h2>
                     <ul>
                         <li><strong>Tech:</strong> Ruby on Rails</li>
@@ -300,6 +303,7 @@
                     <img src="img/tictactoe.png" class="img-polaroid" alt="">
                 </div>
                 <div class="span6">
+                <a id="tictactoe"></a>
                     <h2>Episode Tic-Tac-Toe</h2>
                     <ul>
                         <li><strong>Tech:</strong> HTML/CSS/JS</li>
@@ -337,9 +341,9 @@
                             <img alt="Brand" src="img/walker.jpg">
                         </a>
                         <ul class="nav pull-right">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/background">Background</a></li>
-                            <li><a href="/portfolio">Portfolio</a></li>
+                            <li><a href="/#content">Home</a></li>
+                            <li><a href="/background#content">Background</a></li>
+                            <li><a href="/portfolio#content">Portfolio</a></li>
                             <!-- <li><a href="/blog">Blog</a></li> -->
                         </ul>
                     </nav>
@@ -359,6 +363,7 @@
     </div>
     <div class="container">
         <div class="content">
+            <a id="content"></a>
             <a name="content"></a>
             {{> yield}}
         </div>
@@ -369,9 +374,9 @@
                 <div class="span12 text-center">
                     <nav class="table">
                         <ul class="footer-links">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/background">Background</a></li>
-                            <li><a href="/portfolio">Portfolio</a></li>
+                            <li><a href="/#content">Home</a></li>
+                            <li><a href="/background#content">Background</a></li>
+                            <li><a href="/portfolio#content">Portfolio</a></li>
                             <!-- <li><a href="/blog">Blog</a></li> -->
                             <br>
                             <li class="top"><a href="#top" class="scroll">Back to Top</a></li>
