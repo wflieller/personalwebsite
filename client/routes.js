@@ -29,6 +29,12 @@ Router.map(function() {
 	
 	// });
 IronRouterAutoscroll.animationDuration = 500;
-	
 
 });
+
+// var twitterWidget = function(pause) {
+// 	twttr.widgets.load();
+// 	this.next();
+// };
+
+// Router.onBeforeAction(twitterWidget);
