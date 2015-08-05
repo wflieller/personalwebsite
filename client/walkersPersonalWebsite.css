@@ -7,7 +7,6 @@
 .hero-unit {
 	padding: 0;
 	background: url("img/skyline.jpg") no-repeat 75% top;
-
 }
 
 #scrollArrow {
@@ -81,8 +80,8 @@
 }
 
 .langicon-small {
-	height: 75px;
-	width: 75px;
+	height: 85px;
+	width: 85px;
 	margin: -20px;
 	padding: 0px;
 }
