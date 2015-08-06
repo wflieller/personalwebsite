@@ -186,6 +186,7 @@ a:hover, a:focus {
 
 }
 
+
 .resumePdf {
 	border: 2em solid rgba(0,0,0,0.1);
 	width: 50em;
@@ -240,6 +241,7 @@ a:hover, a:focus {
   opacity: 1;
   text-decoration: none;
   vertical-align: 50%;
+  padding-top: 40px;
 }
 span .fa-mobile {
 	padding-right: .572em;

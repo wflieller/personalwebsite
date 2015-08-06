@@ -181,48 +181,7 @@
             </div>
         </div>
     </div>
-    <div id="widgets">
-        <div class="contatiner">
-            <div class="row">
-                <div class="span12 text-center">
-                    <h1>Social Updates</h1>
-                    <h4>What I've been up to.</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="span6">
-                    <div class="tweets text-center">
-                        <h4>Recent Tweets</h4>
-                        <a class="twitter-timeline" href="https://twitter.com/WalkerFlieller" data-widget-id="627544603869102080">Tweets by @WalkerFlieller</a>
-                        <script>
-                        ! function(d, s, id) {
-                            var js, fjs = d.getElementsByTagName(s)[0],
-                                p = /^http:/.test(d.location) ? 'http' : 'https';
-                            if (!d.getElementById(id)) {
-                                js = d.createElement(s);
-                                js.id = id;
-                                js.src = p + "://platform.twitter.com/widgets.js";
-                                fjs.parentNode.insertBefore(js, fjs);
-                            }
-                        }(document, "script", "twitter-wjs");
-                        </script>
-                    </div>
-                </div>
-                <div class="span6">
-                    <div class="recommendations text-center">
-                        <h4>Recent Github Activity</h4>
-                        <iframe allowtransparency="true" frameborder="0" scrolling="no" seamless="seamless" src="http://colmdoyle.github.io/gh-activity/gh-activity.html?user=wflieller&type=user" width="500em" height="300em"></iframe>
-                    </div>
-                </div>
-                <!--  <div class="span4">
-                    <div class="blogPosts text-center">
-                        <h4>Recent Blog Posts</h4>
-                        <h6>Coming Soon...</h6>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-    </div>
+    
 </template>
 <template name="background">
     <div id="background">
@@ -383,7 +342,34 @@
     <footer>
         <div class="container odd">
             <div class="row">
-                <div class="span12 text-center">
+            <div class="span6">
+                    <div class="tweets text-center">
+                        <h4>Recent Tweets</h4>
+                        <a class="twitter-timeline" href="https://twitter.com/WalkerFlieller" data-widget-id="627544603869102080">Tweets by @WalkerFlieller</a>
+                        <script>
+                        ! function(d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0],
+                                p = /^http:/.test(d.location) ? 'http' : 'https';
+                            if (!d.getElementById(id)) {
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = p + "://platform.twitter.com/widgets.js";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }
+                        }(document, "script", "twitter-wjs");
+                        </script>
+                    </div>
+                </div>
+  
+                <div class="span6">
+                    <div class="recommendations text-center">
+                        <h4>Recent Github Activity</h4>
+                        <iframe allowtransparency="true" frameborder="0" scrolling="no" seamless="seamless" src="http://colmdoyle.github.io/gh-activity/gh-activity.html?user=wflieller&type=user" width="500em" height="300em"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            	<div class="span12 text-center">
                     <nav class="table">
                         <ul class="footer-links">
                             <li><a href="/#top">Home</a></li>
