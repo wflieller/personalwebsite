@@ -255,6 +255,9 @@ span .fa-mobile {
 
 }
 
+#portfolio h2, #portfolio h3 {
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
 
 /*.odd {
 	background: rgba(0,0,0,0.1);
@@ -264,6 +267,20 @@ span .fa-mobile {
 	padding-left: -5em;
 }*/
 
+@media (max-width: 980px) {
+	.img-polaroid {
+	height: 290px;
+	width: 404px;
+  }
+  .imgWrap {
+  	height: 300px;
+  width: 414px;
+  font-size: .75em;
+  }
+  .imgDescription {
+  	font-size: .75em;
+  }
+}
 
 
 @media (max-width: 600px) {
