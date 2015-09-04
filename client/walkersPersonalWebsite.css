@@ -28,7 +28,7 @@
 	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
 }
 .navbar-brand img {
-	border-radius: 30px;
+	border-radius: 50%;
 	height: 3em;
 	width: 3em;
 }
@@ -85,6 +85,14 @@
 	margin: -20px;
 	padding: 0px;
 }
+#services {
+	background: url("http://i.imgur.com/WJWhfaN.png") no-repeat 50% bottom;
+	background-size: cover;
+	margin-right: -4em;
+	margin-left: -4em;
+	margin-top: -4.5em;
+	color: white;
+}
 
 
 a {
@@ -135,8 +143,10 @@ a:hover, a:focus {
 	padding-top: 50px;
 }
 
+
+
 #projects {
-	margin-bottom: 60px;
+/*	margin-bottom: 60px;*/
 	border-bottom: 1px solid rgba(0,0,0,0.1);
 	/*padding-bottom: 100px;*/
 }
@@ -145,14 +155,29 @@ a:hover, a:focus {
 	margin-bottom: 2em;
 }
 
-#widgets {
-	margin-bottom: 60px;
+.widgets {
+	padding-top: 100px;
 	padding-bottom: 100px;
 	border-bottom: 1px solid rgba(0,0,0,0.1);
+	background-size: cover;
+	margin-right: -4em;
+	margin-left: -4em;
+	color: white;
+	background: url("http://i.imgur.com/fJXs2ii.png") no-repeat 50% bottom;
+}
+.widgets a {
+	color: white;
+}
+
+.widgets a:hover {
+	color: #66CDAA;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
 }
 
 
 .footer-links {
+	padding-top: 50px;
 
 	list-style: none;
 }
@@ -161,6 +186,8 @@ a:hover, a:focus {
 	padding-left: .25em;
 	padding-right: .25em;
 }
+
+
 
 .socialIcons {
 	font-size: 2em;
