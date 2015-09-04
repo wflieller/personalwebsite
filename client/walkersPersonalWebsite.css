@@ -7,6 +7,9 @@
 h1 {
 	color: #66CDAA;
 }
+ul {
+	list-style-type: none;
+}
 .hero-unit {
     padding: 0;
     background: url("img/skyline.jpg") no-repeat 75% top;
