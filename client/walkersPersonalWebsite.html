@@ -1,5 +1,6 @@
 <head>
 
+
     <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
     <link href="img/walkerFav.jpg" rel="icon" type="image/x-icon" />
@@ -7,16 +8,16 @@
 </head>
 <template name="homepage">
     <div id="skills">
-        <div class="contatiner">
+        <div class="container-fluid">
             <div class="row">
-                <div class="span12 text-center">
+                <div class="col-md-12 text-center">
                     <a name="skills"></a>
                     <h1>Skills</h1>
                     <h4>These are some of the languages, libraries and frameworks I have experience with.</h4>
                 </div>
             </div>
             <div class="row">
-                <div class="span3">
+                <div class="col-lg-3 col-md-3">
                     <div class="tweets text-center">
                         <h3>Ruby</h3>
                         <img src="img/icon-ruby.png" class="langicon" alt="">
@@ -25,7 +26,7 @@
                         <p>Ruby and Ruby on Rails.</p>
                     </div>
                 </div>
-                <div class="span3">
+                <div class="col-lg-3 col-md-3">
                     <div class="tweets text-center">
                         <h3>Javascript</h3>
                         <img src="img/JSS.png" class="langicon-small" alt="">
@@ -37,7 +38,7 @@
                         <p>Native Javascript, Meteor.js, Backbone, Node.js and jQuery.</p>
                     </div>
                 </div>
-                <div class="span3">
+                <div class="col-lg-3 col-md-3">
                     <div class="liPosts text-center">
                         <h3>HTML5 & CSS3</h3>
                         <img src="img/HTML.png" class="langicon-small" alt="">
@@ -46,7 +47,7 @@
                         <p>HTML5, CSS3 and Bootstrap.</p>
                     </div>
                 </div>
-                <div class="span3">
+                <div class="col-lg-3 col-md-3">
                     <div class="blogPosts text-center">
                         <h3>SQL/NoSQL</h3>
                         <img src="img/postgresqlIcon.png" class="langicon" alt="">
@@ -58,10 +59,10 @@
             </div>
         </div>
     </div>
-    <div id="services">
-        <div class="container">
+    <div id="services" class="container-fluid services">
+        
             <div class="row">
-                <div class="span12 text-center">
+                <div class="col-md-12 text-center">
                     <a name="services"></a>
                     <h1>Services</h1>
                     <h4>What I guarantee with my work.</h4>
@@ -69,34 +70,35 @@
             </div>
             <br>
             <div class="row">
-                <div class="span4 text-center">
+                <div class="col-lg-4 col-md-4 text-center">
                     <span class="responsive">
             		<i class="fa fa-mobile perks"></i>
             	</span>
                     <h3>Responsive Design</h3>
-                    <p>I will make your project look good on any device, whether its a desktop, tablet or even mobile device.</p>
+                    <p>I will make your project look good on any device, whether<br> its a desktop, tablet or even mobile device.</p>
                 </div>
-                <div class="span4 text-center">
+                <div class="col-lg-4 col-md-4 text-center">
                     <span class="cleanCode">
             		<span><i class="fa fa-code perks"></i></span>
                     </span>
                     <h3>Clean, Maintainable Code</h3>
-                    <p>My code will be easily maintained by me or any other developer that you have work on your project now or in the future.</p>
+                    <p>My code will be easily maintained by me or any other developer<br> that you have work on your project now or in the future.</p>
                 </div>
-                <div class="span4 text-center">
-                    <span class="span4 text-center timeframe">
+                <div class="col-lg-4 col-md-4 text-center">
+                    <span class="text-center timeframe">
             		<i class="fa fa-rocket perks"></i>
             	</span>
                     <h3>Rapid Devlopment</h3>
-                    <p>I will develop and deploy your project very quickly while maintaining the utmost quality of work.</p>
+                    <p>I will develop and deploy your project very quickly while<br> maintaining the utmost quality of work.</p>
                 </div>
             </div>
+        
         </div>
-    </div>
+
     <div id="projects">
-        <div class="contatiner">
+        <div class="container-fluid">
             <div class="row">
-                <div class="span12 text-center">
+                <div class="col-md-12 text-center">
                     <h1>Projects</h1>
                     <h4>My most recent work.</h4>
                     <a class="btn portfolioBtn" href="/portfolio#content">Portfolio</a>
@@ -129,9 +131,9 @@
                 </div> -->
             <!-- </div> -->
             <div class="row">
-                <div class="span6 text-center">
+                <div class="col-lg-6 col-md-6 col-xs-12 text-center">
                     <div class="imgWrap text-center">
-                        <img src="img/drinkability.png" class="img-polaroid " alt="">
+                        <img src="img/drinkability.png" class="thumbnail img-polaroid" alt="">
                         <a href="/portfolio#drinkability" class="imgDescription text-center">
                             <h2 class="smallText">Drinkability is a web app built in node.js that allows users to post, comment and vote on their favorite and least favorite cocktails and types of beers and wines.</h2>
                             <span class="badge badge-success">Node.js</span>
@@ -141,9 +143,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="span6 text-center">
+                <div class="col-lg-6 col-md-6 col-xs-12 text-center">
                     <div class="imgWrap text-center">
-                        <img src="img/intro.png" class="img-polaroid" alt="">
+                        <img src="img/intro.png" class="thumbnail img-polaroid" alt="">
                         <a href="/portfolio#intro" class="imgDescription text-center">
                             <h2 class="smallText">Intro is a web app built with meteor.js that allows users to check in to their current location and see whose nearby, and has a social platform built in that allows users to connect & communicate.</h2>
                             <span class="badge badge-success">Meteor.js</span>
@@ -156,9 +158,9 @@
                 </div>
             </div>
             <div class="row">
-                <div class="span6 text-center">
+                <div class="col-lg-6 col-md-6 col-xs-12 text-center">
                     <div class="imgWrap text-center">
-                        <img src="img/appetite.png" class="img-polaroid" alt="">
+                        <img src="img/appetite.png" class="thumbnail img-polaroid" alt="">
                         <a href="/portfolio#appetite" class="imgDescription text-center">
                             <h2 class="smallText">App-etite is a web app built in ruby on rails that allows users to post lunch ideas, vote on the best lunch ideas in order to decide what lunch to get for that day. </h2>
                             <span class="badge badge-success">Ruby on Rails</span>
@@ -168,9 +170,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="span6 text-center">
+                <div class="col-lg-6 col-md-6 col-xs-12 text-center">
                     <div class="imgWrap text-center">
-                        <img src="img/tictactoe.png" class="img-polaroid" alt="">
+                        <img src="img/tictactoe.png" class="thumbnail img-polaroid" alt="">
                         <a href="/portfolio#tictactoe" class="imgDescription text-center">
                             <h2 class="smallText">Episode Tic-Tac-Toe is a fully functional javascript, html and css based tic-tac-toe game that is themed to look like star-wars.</h2>
                             <span class="badge badge-success">Javascript</span>
@@ -187,14 +189,14 @@
 </template>
 <template name="background">
     <div id="background">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="span12 text-center resume">
+                <div class="col-lg-12 col-md-12 text-center resume">
                     <h1>My Background</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="span12 text-center resume">
+                <div class="col-lg-12 col-md-12 text-center resume">
                     <a href="http://registry.jsonresume.org/6b279812" target="_blank">Link to my resume if no content is available below...</a>
                     <br>
                     
@@ -206,17 +208,17 @@
 </template>
 <template name="portfolio">
     <div id="portfolio">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="span12 text-center">
+                <div class="col-lg-12 col-md-12 text-center">
                     <h1>Projects</h1>
                 </div>
             </div>
             <div class="row odd">
-            <div class="span6">
-                    <img src="img/slackClone.png" class="img-polaroid" alt="">
+            <div class="col-lg-6 col-md-6">
+                    <img src="img/slackClone.png" class="thumbnail img-polaroid" alt="">
                 </div>
-                <div class="span6">
+                <div class="col-lg-6 col-md-6">
                     <a id="slack"></a>
                     <h2>Slack Clone</h2>
                     <ul>
@@ -237,7 +239,7 @@
                 
             </div>
             <div class="row odd">
-                <div class="span6">
+                <div class="col-lg-6 col-md-6">
                     <a id="intro"></a>
                     <h2>Intro</h2>
                     <ul>
@@ -256,15 +258,15 @@
                     <br>
                     <a href="https://github.com/wflieller/intro-app-meteor" target="_blank">View on Github</a>
                 </div>
-                <div class="span6">
-                    <img src="img/intro.png" class="img-polaroid" alt="">
+                <div class="col-lg-6 col-md-6">
+                    <img src="img/intro.png" class="thumbnail img-polaroid" alt="">
                 </div>
             </div>
             <div class="row">
-                <div class="span6">
-                    <img src="img/drinkability.png" class="img-polaroid" alt="">
+                <div class="col-lg-6 col-md-6">
+                    <img src="img/drinkability.png" class="thumbnail img-polaroid thumbnail" alt="">
                 </div>
-                <div class="span6">
+                <div class="col-lg-6 col-md-6">
                     <a id="drinkability"></a>
                     <h2>Drinkability</h2>
                     <ul>
@@ -284,7 +286,7 @@
                 </div>
             </div>
             <div class="row odd">
-                <div class="span6">
+                <div class="col-lg-6 col-md-6">
                     <a id="appetite"></a>
                     <h2>App-e-tite</h2>
                     <ul>
@@ -302,15 +304,15 @@
                     <br>
                     <a href="https://github.com/wflieller/app-etite" target="_blank">View on Github</a>
                 </div>
-                <div class="span6">
-                    <img src="img/appetite.png" class="img-polaroid" alt="">
+                <div class="col-lg-6 col-md-6">
+                    <img src="img/appetite.png" class="thumbnail img-polaroid" alt="">
                 </div>
             </div>
             <div class="row">
-                <div class="span6">
-                    <img src="img/tictactoe.png" class="img-polaroid" alt="">
+                <div class="col-lg-6 col-md-6">
+                    <img src="img/tictactoe.png" class="thumbnail img-polaroid" alt="">
                 </div>
-                <div class="span6">
+                <div class="col-lg-6 col-md-6">
                     <a id="tictactoe"></a>
                     <h2>Episode Tic-Tac-Toe</h2>
                     <ul>
@@ -334,7 +336,7 @@
     </div>
 </template>
 <!-- <template name="blog">
-<div class="container">
+<div class="container-fluid">
         	<div class="row">
                 <div class="span12 text-center">
                 <h1>Coming Soon...</h1>
@@ -344,24 +346,24 @@
 </template> -->
 <template name="layout">
     <div class="hero-unit">
-        <div class="container" id="top">
+        <div class="container-fluid" id="top">
             <a name="top"></a>
-            <div class="navbar">
-                <div class="navbar-inner">
-                    <nav>
+            <div class="navbar fixed-top">
+                <div class="navbar-header">
+                
                         <a class="navbar-brand animated fadeInLeft" href="/background#content">
                             <img alt="Brand" src="img/walker.jpg">
                         </a>
-                        <ul class="nav pull-right animated fadeInRight">
+                    </div>
+                        <ul class="nav navbar-nav navbar-right animated fadeInRight">
                             <li><a href="/#content">Home</a></li>
                             <li><a href="/background#content">Background</a></li>
                             <li><a href="/portfolio#content">Portfolio</a></li>
                             <!-- <li><a href="/blog">Blog</a></li> -->
                         </ul>
-                    </nav>
                 </div>
             </div>
-        </div>
+        
         <div class="hero-unit-inner text-center animated zoomIn">
             <h1>Walker Flieller</h1>
             <h3>Full-Stack Web Developer</h3>
@@ -373,7 +375,7 @@
             <a href="#content" class="scroll"><i id="scrollArrow" class="fa fa-chevron-down animated zoomIn"></i></a>
         </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="content">
             <a id="content"></a>
             <a name="content"></a>
@@ -381,18 +383,18 @@
         </div>
     </div>
     <footer>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row widgets">
-            <div class="span12 text-center">
+            <div class="col-lg-12 col-md-12 text-center">
                     <a name="widgets"></a>
                     <h1>Updates</h1>
                     <h4>What I've been up to...</h4>
                     
                 </div>
-            <div class="span6">
+            <div class="col-lg-6 col-md-6 col-xs-12">
                     <div class="tweets text-center">
                         <h4>Recent Tweets</h4>
-                        <h6><a href="http://github.com/wflieller" target="_blank">View my twitter account</a></h6>
+                        <h6><a href="https://twitter.com/walkerflieller" target="_blank">View my twitter account</a></h6>
                         <a class="twitter-timeline" href="https://twitter.com/WalkerFlieller" data-widget-id="627544603869102080">Tweets by @WalkerFlieller</a>
                         <script>
                         ! function(d, s, id) {
@@ -409,7 +411,7 @@
                     </div>
                 </div>
   
-                <div class="span6">
+                <div class="col-lg-6 col-md-6 col-xs-12">
                     <div class="recommendations text-center">
                         <h4>Recent Github Activity</h4>
                         <h6><a href="http://github.com/wflieller" target="_blank">View my github account</a></h6>
@@ -418,7 +420,7 @@
                 </div>
             </div>
             <div class="row footer_links_background">
-            	<div class="span12 text-center">
+            	<div class="col-lg-12 col-md-12 col-xs-12 text-center">
                     <nav class="table">
                         <ul class="footer-links">
                             <li><a href="/#top">Home</a></li>
