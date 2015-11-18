@@ -28,7 +28,7 @@ Router.map(function() {
 	// 	path: '/portfolio#tictactoe'
 	
 	// });
-IronRouterAutoscroll.animationDuration = 500;
+RouterAutoscroll.animationDuration = 500;
 
 });
 

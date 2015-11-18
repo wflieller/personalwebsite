@@ -12,7 +12,7 @@ ul {
 }
 .hero-unit {
     padding: 6em;
-    background: url("img/skyline.jpg") no-repeat 75% top;
+    background: url("img/skyline.jpg") no-repeat fixed top;
 }
 
 .btn-primary {
@@ -112,7 +112,7 @@ a:focus {
 }
 
 .services {
-    background: url("http://i.imgur.com/WJWhfaN.png") no-repeat 50% bottom;
+    background: url("http://i.imgur.com/WJWhfaN.png") no-repeat fixed bottom;
     background-size: cover;
     margin-top: -4.5em;
     color: white;
@@ -185,7 +185,8 @@ a:focus {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background-size: cover;
     color: white;
-    background: url("http://i.imgur.com/fJXs2ii.png") no-repeat 50% bottom;
+    background: url("http://i.imgur.com/fJXs2ii.png") no-repeat fixed bottom;
+
 }
 
 .widgets a {
@@ -312,8 +313,8 @@ span .fa-mobile {
 
 @media (max-width: 980px) {
     .img-polaroid {
-        height: 290px;
-        width: 404px;
+        height: 300px;
+        width: 414px;
     }
     .imgWrap {
         height: 300px;
@@ -322,6 +323,8 @@ span .fa-mobile {
     .smallText {
         font-size: 15px;
     }
+
+
     /*#services {
         margin-right: -4em;
         margin-left: -4em;
@@ -337,17 +340,41 @@ span .fa-mobile {
         margin-right: -1.5em;
         margin-left: -1.5em;
     }*/
+    .hero-unit {
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: center;
+    }
+
+    .services {
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: center;
+
+    }
+
+    .widgets {
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: inherit;
+    }
+
+
     .smallText {
         font-size: 15px;
     }
     .img-polaroid {
-        height: 290px;
-        width: 404px;
+        height: 300px;
+        width: 364px;
     }
     .imgWrap {
         height: 300px;
-        width: 414px;
+        width: 364px;
         font-size: .5em;
+    }
+
+    .recommendations > iframe {
+        width: 250px;
     }
    /* #services {
         margin-right: -4em;
