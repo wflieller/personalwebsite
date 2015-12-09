@@ -50,10 +50,34 @@ ul {
 
 }
 
+.navbar-fixed-top {
+    height: 85px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.navbar-toggle {
+    background-color: #999999;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-toggle:hover .icon-bar, .navbar-toggle:active .icon-bar {
+    background-color: #66CDAA;
+      -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
 .navbar-brand img {
     border-radius: 50%;
     height: 3em;
     width: 3em;
+}
+
+.navbar-brand {
+    margin-bottom: 30px;
 }
 
 .navbar-inner {
@@ -150,6 +174,7 @@ a {
 
 a:hover,
 a:focus {
+     text-decoration: none;
     color: #66CDAA;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -222,6 +247,26 @@ a:focus {
     margin-bottom: 2em;
 }
 
+#portfolio .odd {
+    background-color: #999999;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#portfolio .odd a {
+    color: white;
+}
+
+#portfolio .odd a:hover,
+#portfolio .odd a:focus {
+    text-decoration: none;
+    color: #66CDAA;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
 .projectPic {
     veritcal-align: 50%;
 }
@@ -234,7 +279,7 @@ a:focus {
 
 .resumePdf {
     border: 2em solid rgba(0, 0, 0, 0.1);
-    width: 50em;
+/*    width: 50em;*/
     height: 50em;
 }
 
@@ -333,6 +378,13 @@ span .fa-mobile {
         margin-right: -4em;
         margin-left: -4em;
     }*/
+}
+
+@media (max-width: 767px) {
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+        background-color: #999999;
+    }
+
 }
 
 @media (max-width: 684px) {
