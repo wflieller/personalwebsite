@@ -532,11 +532,17 @@
             $(document).scroll(function() {
                 scroll_start = $(this).scrollTop();
                 if (scroll_start > offset.top) {
-                    $(".navbar, navbar-nav").css('background-color', '#999999');
+                    $(".navbar, navbar-nav").css({
+                        'background-color': '#999999',
+                        'border-bottom': '5px solid #66CDAA'
+                    });
 
 
                 } else {
-                    $('.navbar, navbar-nav').css('background-color', 'transparent');
+                    $('.navbar, navbar-nav').css({
+                        'background-color': 'transparent',
+                        'border-bottom': 'transparent',
+                    });
 
                 }
             });
