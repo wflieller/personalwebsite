@@ -312,8 +312,8 @@ a:focus {
 }
 
 .thumbnail, .img-polaroid {
-    height: 390px;
-    width: 504px;
+    height: 400px;
+    width: 514px;
     /*height: 18em;
   	width: 30em;*/
 }
