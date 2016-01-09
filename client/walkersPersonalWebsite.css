@@ -35,8 +35,6 @@ ul {
     -webkit-animation-iteration-count: infinite;
 }
 
-
-
 #scrollArrow:hover {
     color: #66CDAA;
     opacity: 1;
@@ -58,6 +56,10 @@ ul {
     height: 85px;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
+}
+
+.navbar-right {
+    padding-top: 15px;
 }
 
 .navbar-toggle {
@@ -213,10 +215,6 @@ a:focus {
     padding-top: 100px;
 }
 
-#portfolio {
-    padding-bottom: 100px;
-    padding-top: 100px;
-}
 
 .widgets {
     padding-top: 100px;
@@ -255,16 +253,15 @@ a:focus {
 }
 
 #portfolio .row {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    padding-bottom: 2em;
-    margin-bottom: 2em;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #portfolio .odd {
     background-color: #999999;
     color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #portfolio .odd a {
@@ -279,14 +276,18 @@ a:focus {
     -moz-transition: all 0.5s ease;
 }
 
+.img-responsive {
+    margin: 0 auto;
+}
+
 .projectPic {
     veritcal-align: 50%;
 }
 
 .resume {
-    padding-bottom: 2em;
+    padding-bottom: 100px;
     margin-bottom: 2em;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
 }
 
 .resumePdf {
