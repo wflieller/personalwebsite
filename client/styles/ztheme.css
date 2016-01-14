@@ -10,6 +10,7 @@ h1 {
 
 ul {
     list-style-type: none;
+    margin-left: -38px
 }
 
 .hero-unit {
@@ -18,7 +19,7 @@ ul {
 }
 
 .btn-primary {
-    color: #66CDAA;
+    color: #fff;
     border-color: transparent;
     opacity: 1;
     -webkit-transition: all 0.5s ease;
@@ -129,93 +130,6 @@ a:focus {
     color: #66CDAA;
 }
 
-.langicon {
-    height: 40px;
-    width: 40px;
-}
-
-.langicon-small {
-    height: 85px;
-    width: 85px;
-    margin: -20px;
-    padding: 0px;
-}
-
-.services {
-    background: url("http://i.imgur.com/WJWhfaN.png") no-repeat fixed bottom;
-    background-size: cover;
-    margin-top: -4.5em;
-    color: white;
-    margin-left: -1em;
-    margin-right: -1em;
-}
-
-a {
-    color: black;
-}
-
-.btn {
-    background: #9a9c9f;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    color: #fff;
-    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3);
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.btn:hover {
-    background: #66CDAA;
-    border-color: transparent;
-    color: #fff;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-}
-
-.btn:focus {
-    background: #66CDAA;
-    color: #fff;
-}
-
-a:hover,
-a:focus {
-    text-decoration: none;
-    color: #66CDAA;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-}
-
-#skills {
-    margin-bottom: 60px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    padding-bottom: 100px;
-    padding-top: 100px;
-}
-
-#services {
-    margin-bottom: 60px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    padding-bottom: 100px;
-    padding-top: 100px;
-}
-
-#projects {
-    /*  margin-bottom: 60px;*/
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    /*padding-bottom: 100px;*/
-}
-
-.portfolioBtn {
-    margin-bottom: 2em;
-}
-
-#background {
-    padding-bottom: 100px;
-    padding-top: 100px;
-}
-
-
 .widgets {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -240,40 +154,24 @@ a:focus {
     list-style: none;
 }
 
-.footer-links li {
+.footerLink {
     display: inline-block;
-    padding-left: .25em;
-    padding-right: .25em;
+    padding: .25em;
+}
+
+.footer_links_background {
+    padding-top: 50px;
+}
+
+.smallHr {
+    width: 50px;
+    border-width: 3px;
+    border-color: #66CDAA;
 }
 
 .socialIcons {
     font-size: 2em;
-    padding-left: .25em;
-    padding-right: .25em;
-}
-
-#portfolio .row {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-#portfolio .odd {
-    background-color: #999999;
-    color: white;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-#portfolio .odd a {
-    color: white;
-}
-
-#portfolio .odd a:hover,
-#portfolio .odd a:focus {
-    text-decoration: none;
-    color: #66CDAA;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
+    padding: .25em;
 }
 
 .img-responsive {
@@ -282,50 +180,6 @@ a:focus {
 
 .projectPic {
     veritcal-align: 50%;
-}
-
-.resume {
-    padding-bottom: 100px;
-    margin-bottom: 2em;
-
-}
-
-.resumePdf {
-    border: 2em solid rgba(0, 0, 0, 0.1);
-    /*    width: 50em;*/
-    height: 50em;
-}
-
-.imgWrap {
-    position: relative;
-    height: 400px;
-    width: 514px;
-    margin: 0 auto;
-    margin-bottom: 10em;
-    text-decoration: none;
-}
-
-.imgDescription {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #66CDAA;
-    text-decoration: none;
-    visibility: hidden;
-    opacity: 0;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-}
-
-.imgDescription a {
-    text-decoration: none;
-}
-
-.smallText {
-    padding: 15px;
 }
 
 .thumbnail,
@@ -338,26 +192,6 @@ a:focus {
 
 .badge-success {
     background: #66CDAA;
-}
-
-.imgWrap:hover .imgDescription {
-    visibility: visible;
-    opacity: 1;
-    text-decoration: none;
-    vertical-align: 50%;
-    padding-top: 40px;
-}
-
-span .fa-mobile {
-    padding-right: .572em;
-    padding-left: .572em;
-}
-
-.perks {
-    font-size: 7em;
-    background: #66CDAA;
-    border-radius: 50%;
-    padding: .25em;
 }
 
 #portfolio h2,
