@@ -4,8 +4,10 @@
     font-family: Ubuntu;
 }
 
-h1 {
+h1,
+h3 {
     color: #66CDAA;
+    text-shadow: 2px 2px 15px #FFF;
 }
 
 ul {
@@ -20,6 +22,7 @@ ul {
 
 .btn-primary {
     color: #fff;
+    background-color: transparent;
     border-color: transparent;
     opacity: 1;
     -webkit-transition: all 0.5s ease;
@@ -64,7 +67,8 @@ ul {
 }
 
 .navbar-toggle {
-    background-color: #999999;
+    background-color: #000000;
+    top: 12px;
 }
 
 .navbar-toggle .icon-bar {
@@ -131,12 +135,16 @@ a:focus {
 }
 
 .widgets {
+    background-image: url("img/sixth-min.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
     padding-top: 100px;
     padding-bottom: 100px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background-size: cover;
     color: white;
-    background: url("http://i.imgur.com/fJXs2ii.png") no-repeat fixed bottom;
 }
 
 .widgets a {
@@ -161,6 +169,9 @@ a:focus {
 
 .footer_links_background {
     padding-top: 50px;
+    margin-left: -1.04em;
+    margin-right: -1.04em;
+    background-color: #000000;
 }
 
 .smallHr {
@@ -194,11 +205,9 @@ a:focus {
     background: #66CDAA;
 }
 
-#portfolio h2,
-#portfolio h3 {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+.smallHr {
+    padding-bottom: 50px;
 }
-
 
 /*.odd {
     background: rgba(0,0,0,0.1);
@@ -235,7 +244,7 @@ a:focus {
     .container-fluid > .navbar-header,
     .container > .navbar-collapse,
     .container-fluid > .navbar-collapse {
-        background-color: #999999;
+        background-color: #000000;
     }
 }
 

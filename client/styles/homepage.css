@@ -11,24 +11,27 @@
 }
 
 .services {
-    background: url("http://i.imgur.com/WJWhfaN.png") no-repeat fixed bottom;
-    background-size: cover;
+    background-image: url("img/360bridge-min.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     margin-top: -4.5em;
-    color: white;
-    margin-left: -1em;
-    margin-right: -1em;
+    color: #fff;
+    margin-left: -1.04em;
+    margin-right: -1.04em;
 }
 
 a {
-    color: black;
+    color: #777777;
 }
 
 .btn {
-    background: #9a9c9f;
+    background: #000000;
+    border-color: #777777;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    color: #fff;
+    color: #777777;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3);
     font-size: 16px;
     font-weight: bold;
@@ -56,18 +59,21 @@ a:focus {
 }
 
 .btn-primary {
-    color: #fff;
+    color: #777777;
 }
 
 #skills {
+    color: #777777;
     margin-bottom: 60px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding-bottom: 100px;
     padding-top: 100px;
+    margin-left: -1.04em;
+    margin-right: -1.04em;
+    background-color: #000000;
 }
 
 #services {
-    margin-bottom: 60px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding-bottom: 100px;
     padding-top: 100px;
@@ -75,8 +81,13 @@ a:focus {
 
 #projects {
     /*  margin-bottom: 60px;*/
+    padding-top: 100px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     /*padding-bottom: 100px;*/
+    margin-left: -1.04em;
+    margin-right: -1.04em;
+    background-color: #000000;
+    color: #777777;
 }
 
 .portfolioBtn {
