@@ -292,3 +292,23 @@ a:focus {
         margin-left: -4em;
     }*/
 }
+
+@media (max-width: 400px) {
+    .smallText {
+        font-size: 12px;
+    }
+    .img-polaroid {
+        height: 200px;
+        width: 264px;
+    }
+    .imgWrap {
+        height: 200px;
+        width: 264px;
+        font-size: .5em;
+    }
+    .recommendations > iframe {
+        width: 150px;
+    }
+
+
+}
