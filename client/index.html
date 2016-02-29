@@ -11,7 +11,7 @@
         <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
         <link href="img/walkerFav.jpg" rel="icon" type="image/x-icon" />
     </head>
-    <a name="top"></a>
+    <a name="top" id="top"></a>
     <div class="hero-unit">
         <div class="container-fluid" id="top">
             <div class="navbar">
@@ -35,27 +35,7 @@
                                 <li><a href="/#content">Home</a></li>
                                 <li><a href="/background#content">Background</a></li>
                                 <li><a href="/portfolio#content">Portfolio</a></li>
-                                <!-- <li><a href="/blog">Blog</a></li> -->
                             </ul>
-                            <!-- <form class="navbar-form navbar-right" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form> -->
-                            <!-- <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul> -->
                         </div>
                         <!-- /.navbar-collapse -->
                     </div>
@@ -85,13 +65,13 @@
     <footer>
         <div class="container-fluid">
             <div class="row widgets">
-                <div class="col-lg-12 col-md-12 text-center">
+                <div class="col-lg-12 col-md-12 text-center wow fadeIn" data-wow-delay=".3s">
                     <a name="widgets"></a>
                     <h1>Updates</h1>
                     <h4>What I've been up to...</h4>
                     <hr class="smallHr">
                 </div>
-                <div class="col-lg-8 col-lg-offset-2 col-md-12 col-xs-12">
+                <div class="col-lg-8 col-lg-offset-2 col-md-12 col-xs-12 wow fadeIn" data-wow-delay=".3s">
                     <div class="tweets text-center">
                         <a class="twitter-timeline" href="https://twitter.com/WalkerFlieller" data-widget-id="627544603869102080">Tweets by @WalkerFlieller</a>
                         <script>
@@ -110,7 +90,7 @@
                 </div>
             </div>
             <div class="row footer_links_background">
-                <div class="col-lg-12 col-md-12 col-xs-12 text-center">
+                <div class="col-lg-12 col-md-12 col-xs-12 text-center wow fadeIn" data-wow-delay=".3s">
                     <a href="/#content" class="footerLink">Home</a>
                     <a href="/background#content" class="footerLink">Background</a>
                     <a href="/portfolio#content" class="footerLink">Portfolio</a>
@@ -140,7 +120,11 @@
                 </div>
             </div>
         </div>
+        <div class="backToTop">
+        <a href="#top" class="fa fa-arrow-up fa-lg "></a>
+    </div>
     </footer>
+
     <script>
     $(".scroll").click(function(event) {
         event.preventDefault();
@@ -159,7 +143,12 @@
                     $(".navbar, navbar-nav").css({
                         'background-color': '#000000',
                         'border-bottom': '5px solid #66CDAA'
+                    });$(".backToTop a").css({
+                        'color': '#ffffff',
+                        'background': '#555555'
+
                     });
+
 
 
                 } else {
@@ -167,19 +156,33 @@
                         'background-color': 'transparent',
                         'border-bottom': 'transparent',
                     });
+                    $(".backToTop a").css({
+                        'color': 'rgba(0,0,0,0)',
+                        'background': 'transparent'
+
+                    });
 
                 }
             });
         }
     });
 
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-73969210-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-73969210-1', 'auto');
+    ga('send', 'pageview');
 
+
+    new WOW().init();
     </script>
 </template>
