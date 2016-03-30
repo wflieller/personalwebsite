@@ -1,12 +1,12 @@
 Meteor.startup(function() {
     if (Meteor.isClient) {
         return SEO.config({
-            'title': 'Walker Flieller is a full-stack web software developer, currently residing in Austin, Texas. Focusing on dynamic web applications built with technologies such as javascript, ruby, meteor.js, node.js and many more.',
+            'title': 'Walker Flieller | Full-Stack Developer & Entrepreneur',
             'meta': {
                 'fragment': '!',
                 'description': 'Walker Flieller is a full-stack web software developer, currently residing in Austin, Texas. Focusing on dynamic web applications built with technologies such as javascript, ruby, meteor.js, node.js and many more.',
                 'copyright': 'All rights reserved, Walker Flieller.',
-                'keywords': 'walker flieller, flieller, web developer, software developer, programmer, austin, texas, tech, portfolio, website developer, custom, custom websites, custom apps, custom applications, website, app, application, seo, online marketing, digital marketing, digital marketers, digital design, digital presence, analytics, data, custom analytics, online, online success, online presence, seo targeting, austin, texas',
+                'keywords': 'walker flieller, flieller, web developer, software developer, programmer, austin, texas, tech, portfolio, website developer, custom websites, custom seo, custom apps, applications, app, app developer, software engineer, software engineer austin, software engineer texas, developer austin, developer texas, walker flieller, flieller, web developer, software developer, programmer, austin, texas, tech, portfolio, website developer, custom, custom websites, custom apps, custom applications, website, app, application, seo, online marketing, digital marketing, digital marketers, digital design, digital presence, analytics, data, custom analytics, online, online success, online presence, seo targeting, austin, texas',
                 'viewport': 'width=device-width, initial-scale=1',
                 'site_name': 'Walker Flieller',
                 'url': 'http://walkerflieller.com',
